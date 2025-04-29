@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GreenEnergyApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".HelpSupportActivity"
+            android:exported="false"
+            android:label="@string/title_activity_help_support"
+            android:theme="@style/Theme.GreenEnergyApp" />
+        <activity
+            android:name=".UserFormActivity"
+            android:exported="false"
+            android:label="@string/title_activity_user_form"
+            android:theme="@style/Theme.GreenEnergyApp" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false"
+            android:label="@string/title_activity_forgot_password"
+            android:theme="@style/Theme.GreenEnergyApp" />
+        <activity
+            android:name=".StatusActivity"
+            android:exported="false"
+            android:label="@string/title_activity_status"
+            android:theme="@style/Theme.GreenEnergyApp" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/Theme.GreenEnergyApp" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.GreenEnergyApp" />
+        <activity
+            android:name=".AppliancesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_appliances"
+            android:theme="@style/Theme.GreenEnergyApp" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/Theme.GreenEnergyApp" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GreenEnergyApp" />
+        <activity
+            android:name=".LocationActivity"
+            android:exported="false"
+            android:label="Location"
+            android:theme="@style/Theme.GreenEnergyApp" />
+    </application>
+
+</manifest>

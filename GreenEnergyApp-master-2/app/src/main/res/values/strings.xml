@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GreenEnergyApp</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_appliances">AppliancesActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_status">StatusActivity</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+    <string name="title_activity_user_form">UserFormActivity</string>
+    <string name="title_activity_help_support">HelpSupportActivity</string>
+</resources>
